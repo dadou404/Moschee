@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PrayerMethod</class>
+ <widget class="QDialog" name="PrayerMethod">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>671</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="WelcomeLabelText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>331</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Prayer Method Settings</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LabelMethod">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>67</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Method :</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="MethodComboBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>140</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Muslim World League (MWL)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Diyanet</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Islamic Society of North America (ISNA)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Egyptian General Authority of Survey</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Umm al-Qura University</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>University of Islamic Sciences </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jafarii</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Database</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="LabelAsr">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Asr Method :</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="AsrComBox">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>220</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Standard</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hanafi</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="Next">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>450</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>0</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Languages/build-MyMosqu-Desktop-Debug/Untitled-1.png);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BackPush">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>450</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
